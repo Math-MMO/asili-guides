@@ -4,25 +4,16 @@ import { useState } from "react";
 import ArticleCard from "@/components/ArticleCard";
 
 const countryLabels = { senegal: "Sénégal", maroc: "Maroc" };
-const categoryLabels = {
-  "avant-acheter": "Avant d'acheter",
-  financement: "Financement",
-  fiscalite: "Fiscalité",
-  juridique: "Juridique",
-};
 
 export default function ArticlesList({ articles }) {
   const [countryFilter, setCountryFilter] = useState("all");
-  const [categoryFilter, setCategoryFilter] = useState("all");
 
   const filtered = articles.filter((a) => {
     if (countryFilter !== "all" && a.country !== countryFilter) return false;
-    if (categoryFilter !== "all" && a.category !== categoryFilter) return false;
     return true;
   });
 
   const countries = [...new Set(articles.map((a) => a.country))];
-  const categories = [...new Set(articles.map((a) => a.category))];
 
   return (
     <>
@@ -48,32 +39,6 @@ export default function ArticlesList({ articles }) {
             }`}
           >
             {countryLabels[c] || c}
-          </button>
-        ))}
-
-        <div className="w-px bg-gray-300 mx-1" />
-
-        <button
-          onClick={() => setCategoryFilter("all")}
-          className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-            categoryFilter === "all"
-              ? "bg-amber-500 text-white"
-              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-          }`}
-        >
-          Toutes catégories
-        </button>
-        {categories.map((c) => (
-          <button
-            key={c}
-            onClick={() => setCategoryFilter(c)}
-            className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-              categoryFilter === c
-                ? "bg-amber-500 text-white"
-                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-            }`}
-          >
-            {categoryLabels[c] || c}
           </button>
         ))}
       </div>
