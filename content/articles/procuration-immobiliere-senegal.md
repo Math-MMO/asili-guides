@@ -1,5 +1,5 @@
 ---
-title: "Procuration immobilière au Sénégal : comment acheter sans se déplacer"
+title: "Procuration immobilière au Sénégal : acheter à distance"
 description: "Comment acheter un bien immobilier au Sénégal sans vous déplacer grâce à la procuration notariée : types, coûts, pièges à éviter et conseils pour sécuriser votre mandataire."
 slug: "procuration-immobiliere-senegal"
 country: "senegal"

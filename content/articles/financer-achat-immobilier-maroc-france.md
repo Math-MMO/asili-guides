@@ -1,5 +1,5 @@
 ---
-title: "Comment financer un achat immobilier au Maroc depuis la France"
+title: "Financer un achat immobilier au Maroc depuis la France"
 description: "Crédit bancaire marocain, hypothèque sur bien français, apport personnel : toutes les options pour financer un achat immobilier au Maroc depuis la France en tant que non-résident."
 slug: "financer-achat-immobilier-maroc-france"
 country: "maroc"

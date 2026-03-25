@@ -1,5 +1,5 @@
 ---
-title: "Acheter un bien immobilier au Sénégal depuis la France : le guide complet"
+title: "Acheter au Sénégal depuis la France : guide complet"
 description: "Toutes les étapes pour acheter un appartement ou une maison au Sénégal depuis la France : titre foncier, notaire, procuration, fiscalité et transfert de fonds. Guide complet pour la diaspora."
 slug: "acheter-immobilier-senegal-diaspora"
 country: "senegal"
