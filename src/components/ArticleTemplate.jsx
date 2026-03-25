@@ -153,6 +153,24 @@ export default function ArticleTemplate({ frontmatter, children }) {
           {children}
         </div>
 
+        {/* CTA après contenu */}
+        <div className="my-8 p-5 bg-amber-50 border border-amber-100 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div>
+            <p className="font-semibold text-gray-900 text-sm">
+              Vous avez un projet {country === "senegal" ? "au Sénégal" : country === "maroc" ? "au Maroc" : "immobilier"} ?
+            </p>
+            <p className="text-xs text-gray-500 mt-0.5">
+              Décrivez-le en 2 minutes — mise en relation avec une agence vérifiée sous 24h.
+            </p>
+          </div>
+          <button
+            onClick={() => setShowForm(true)}
+            className="shrink-0 bg-amber-500 hover:bg-amber-600 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-colors whitespace-nowrap"
+          >
+            Décrire mon projet →
+          </button>
+        </div>
+
         {/* CTA visible */}
         <div className="my-10 p-6 bg-gray-900 rounded-2xl text-white text-center">
           <p className="font-bold text-lg mb-1">Prêt à concrétiser votre projet ?</p>

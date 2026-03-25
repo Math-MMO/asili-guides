@@ -6,7 +6,7 @@ country: "maroc"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
-image: /images/maroc-guide.jpg
+image: /images/maroc-guide.png
 ---
 
 # Acheter au Maroc depuis la France : guide complet

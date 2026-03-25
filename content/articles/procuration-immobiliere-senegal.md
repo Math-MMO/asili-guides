@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
-image: /images/senegal-procuration.jpg
+image: /images/senegal-procuration.png
 ---
 
 # Procuration immobilière au Sénégal : comment acheter sans se déplacer

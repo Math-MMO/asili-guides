@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
-image: /images/senegal-arnaques.jpg
+image: /images/senegal-arnaques.png
 ---
 
 # Arnaques immobilières au Sénégal : comment les reconnaître et les éviter

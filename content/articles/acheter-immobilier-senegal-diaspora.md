@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
-image: /images/senegal-guide.jpg
+image: /images/senegal-guide.png
 ---
 
 # Acheter au Sénégal depuis la France : guide complet

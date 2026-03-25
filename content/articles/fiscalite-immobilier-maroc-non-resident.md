@@ -6,7 +6,7 @@ country: "maroc"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
-image: /images/maroc-fiscalite.jpg
+image: /images/maroc-fiscalite.png
 ---
 
 # Fiscalité immobilière au Maroc pour les non-résidents
