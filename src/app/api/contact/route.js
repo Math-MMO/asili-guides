@@ -107,7 +107,7 @@ export async function POST(request) {
       },
       body: JSON.stringify({
         sender: { name: "Asili", email: "asili@asili.immo" },
-        to: [{ email: "contact@asili.immo", name: "ASILI" }],
+        to: [{ email: "asili@asili.immo", name: "ASILI" }],
         subject: `Nouveau projet — ${firstName} — ${countryLabels[country] || country}`,
         htmlContent,
       }),
