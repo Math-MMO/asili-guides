@@ -106,7 +106,7 @@ export async function POST(request) {
         "content-type": "application/json",
       },
       body: JSON.stringify({
-        sender: { name: "ASILI Guides", email: "noreply@guide.asili.immo" },
+        sender: { name: "ASILI Guides", email: "contact@asili.immo" },
         to: [{ email: "contact@asili.immo", name: "ASILI" }],
         subject: `Nouveau projet — ${firstName} — ${countryLabels[country] || country}`,
         htmlContent,
