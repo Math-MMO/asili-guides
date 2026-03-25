@@ -162,6 +162,13 @@ export default function ArticleTemplate({ frontmatter, children, faq }) {
         {/* CTA après "Ce que fait ASILI" */}
         {ctaAmber}
 
+        {/* FAQ */}
+        {faq && (
+          <div className={proseClasses}>
+            {faq}
+          </div>
+        )}
+
         {/* CTA dark */}
         <div className="my-10 p-6 bg-gray-900 rounded-2xl text-white text-center">
           <p className="font-bold text-lg mb-1">Prêt à concrétiser votre projet ?</p>
@@ -180,13 +187,6 @@ export default function ArticleTemplate({ frontmatter, children, faq }) {
             <span>✓ Sans engagement</span>
           </div>
         </div>
-
-        {/* FAQ */}
-        {faq && (
-          <div className={proseClasses}>
-            {faq}
-          </div>
-        )}
 
         {/* Footer article — partage */}
         <div className="mt-12 border-t border-gray-100 pt-8">
