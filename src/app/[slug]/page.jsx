@@ -1,6 +1,6 @@
 import { getAllSlugs, getArticleBySlug } from "@/lib/articles";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import ArticleLayout from "@/components/ArticleLayout";
+import ArticleTemplate from "@/components/ArticleTemplate";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
@@ -35,8 +35,8 @@ export default async function ArticlePage({ params }) {
   const { frontmatter, content } = article;
 
   return (
-    <ArticleLayout frontmatter={frontmatter}>
+    <ArticleTemplate frontmatter={frontmatter}>
       <MDXRemote source={content} />
-    </ArticleLayout>
+    </ArticleTemplate>
   );
 }
