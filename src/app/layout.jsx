@@ -23,20 +23,11 @@ export const metadata = {
     apple: "/logo-asili.png",
   },
   viewport: "width=device-width, initial-scale=1",
-  alternates: {
-    languages: {
-      fr: "https://guide.asili.immo",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <head>
-        <link rel="alternate" hrefLang="fr" href="https://guide.asili.immo" />
-        <link rel="alternate" hrefLang="x-default" href="https://guide.asili.immo" />
-      </head>
       <body
         className={`${inter.variable} ${dmSerif.variable} font-sans min-h-screen bg-stone-50 text-gray-900 antialiased`}
       >

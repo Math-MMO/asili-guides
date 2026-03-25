@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
 
   const { frontmatter } = article;
   return {
-    title: `${frontmatter.title} | ASILI Guides`,
+    title: `${frontmatter.title} | ASILI`,
     description: frontmatter.description,
     openGraph: {
       title: frontmatter.title,
@@ -24,6 +24,10 @@ export async function generateMetadata({ params }) {
     },
     alternates: {
       canonical: `https://guide.asili.immo/${frontmatter.slug}`,
+      languages: {
+        fr: `https://guide.asili.immo/${frontmatter.slug}`,
+        "x-default": `https://guide.asili.immo/${frontmatter.slug}`,
+      },
     },
   };
 }

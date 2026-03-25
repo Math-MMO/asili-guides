@@ -8,6 +8,10 @@ export const metadata = {
     "Guides pratiques pour acheter au Sénégal ou au Maroc depuis la France. Titre foncier, notaire, procuration, fiscalité : tout ce qu'il faut savoir pour la diaspora africaine.",
   alternates: {
     canonical: "https://guide.asili.immo",
+    languages: {
+      fr: "https://guide.asili.immo",
+      "x-default": "https://guide.asili.immo",
+    },
   },
 };
 
