@@ -34,19 +34,21 @@ export default function ArticleTemplate({ frontmatter, children }) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const articleUrl =
-    typeof window !== "undefined" ? window.location.href : "";
+  const currentUrl =
+    typeof window !== "undefined"
+      ? window.location.href
+      : `https://guide.asili.immo/${frontmatter.slug}`;
 
   function handleCopy() {
-    navigator.clipboard.writeText(articleUrl);
+    navigator.clipboard.writeText(currentUrl);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   }
 
   const shareLinks = {
-    whatsapp: `https://wa.me/?text=${encodeURIComponent(frontmatter.title + " " + articleUrl)}`,
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}`,
-    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(frontmatter.title)}&url=${encodeURIComponent(articleUrl)}`,
+    whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(frontmatter.title + " - " + currentUrl)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
+    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(frontmatter.title)}&url=${encodeURIComponent(currentUrl)}`,
   };
 
   const country = frontmatter.country;
