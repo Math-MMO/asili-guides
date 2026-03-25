@@ -14,6 +14,24 @@ export default async function HomePage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "ASILI Guides",
+            url: "https://guide.asili.immo",
+            description:
+              "Guides pratiques pour acheter un bien immobilier au Sénégal ou au Maroc depuis la France.",
+            publisher: {
+              "@type": "Organization",
+              name: "ASILI",
+              url: "https://asili.immo",
+            },
+          }),
+        }}
+      />
       <PageHero
         title="Guides & Repères"
         description="Comprendre le marché immobilier en Afrique pour acheter en toute confiance."

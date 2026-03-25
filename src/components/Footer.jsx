@@ -23,7 +23,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Explorer</h4>
+            <p className="font-semibold mb-4 text-white">Explorer</p>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <a href={`${ASILI_URL}/Search?listing_type=sale`} target="_blank" rel="noopener noreferrer" className="hover:text-white">
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Propriétaires</h4>
+            <p className="font-semibold mb-4 text-white">Propriétaires</p>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <a href={`${ASILI_URL}/CreateProperty`} target="_blank" rel="noopener noreferrer" className="hover:text-white">
@@ -65,7 +65,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Ressources</h4>
+            <p className="font-semibold mb-4 text-white">Ressources</p>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <Link href="/" className="hover:text-white">
@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Contact</h4>
+            <p className="font-semibold mb-4 text-white">Contact</p>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <a href={`${ASILI_URL}/Support`} target="_blank" rel="noopener noreferrer" className="hover:text-white inline-flex items-center gap-2">
@@ -85,12 +85,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/asili-immo" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                <a href="https://www.linkedin.com/company/asili-immo" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/asili.immo" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                <a href="https://www.facebook.com/asili.immo" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400">
                   Facebook
                 </a>
               </li>
