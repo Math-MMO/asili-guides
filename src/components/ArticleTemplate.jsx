@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import ProjectForm from "./ProjectForm";
 
 const countryLabels = {
   senegal: "Sénégal",
@@ -22,6 +23,7 @@ const badgeColors = {
 export default function ArticleTemplate({ frontmatter, children }) {
   const [progress, setProgress] = useState(0);
   const [copied, setCopied] = useState(false);
+  const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
     function handleScroll() {
@@ -111,6 +113,24 @@ export default function ArticleTemplate({ frontmatter, children }) {
           </div>
         )}
 
+        {/* CTA discret */}
+        <div className="my-8 p-5 bg-amber-50 border border-amber-100 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div>
+            <p className="font-semibold text-gray-900 text-sm">
+              Vous avez un projet {country === "senegal" ? "au Sénégal" : country === "maroc" ? "au Maroc" : "immobilier"} ?
+            </p>
+            <p className="text-xs text-gray-500 mt-0.5">
+              Décrivez-le en 2 minutes — mise en relation avec une agence vérifiée sous 24h.
+            </p>
+          </div>
+          <button
+            onClick={() => setShowForm(true)}
+            className="shrink-0 bg-amber-500 hover:bg-amber-600 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-colors whitespace-nowrap"
+          >
+            Décrire mon projet →
+          </button>
+        </div>
+
         {/* Corps article */}
         <div className="
           prose max-w-none
@@ -131,6 +151,25 @@ export default function ArticleTemplate({ frontmatter, children }) {
           prose-hr:border-gray-100
         ">
           {children}
+        </div>
+
+        {/* CTA visible */}
+        <div className="my-10 p-6 bg-gray-900 rounded-2xl text-white text-center">
+          <p className="font-bold text-lg mb-1">Prêt à concrétiser votre projet ?</p>
+          <p className="text-gray-400 text-sm mb-5">
+            Un conseiller ASILI vous contacte sous 24h. Gratuit, sans engagement.
+          </p>
+          <button
+            onClick={() => setShowForm(true)}
+            className="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-xl transition-colors inline-flex items-center gap-2 text-sm"
+          >
+            Démarrer mon projet →
+          </button>
+          <div className="flex flex-wrap justify-center gap-4 mt-4 text-xs text-gray-500">
+            <span>✓ Réponse sous 24h</span>
+            <span>✓ Agences vérifiées</span>
+            <span>✓ Sans engagement</span>
+          </div>
         </div>
 
         {/* Footer article — partage */}
@@ -175,6 +214,12 @@ export default function ArticleTemplate({ frontmatter, children }) {
           </p>
         </div>
       </div>
+
+      <ProjectForm
+        isOpen={showForm}
+        onClose={() => setShowForm(false)}
+        defaultCountry={country || ""}
+      />
     </div>
   );
 }
