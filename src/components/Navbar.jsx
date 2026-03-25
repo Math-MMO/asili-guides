@@ -1,16 +1,14 @@
-import Link from "next/link";
-
 export default function Navbar() {
   return (
     <header className="bg-white border-b border-gray-200">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
-        <Link href="/" className="flex items-center">
+        <a href="https://asili.immo" className="flex items-center">
           <img
             src="/logo-asili.png"
             alt="Asili"
             className="h-10 w-auto"
           />
-        </Link>
+        </a>
         <a
           href="https://asili.immo"
           target="_blank"
