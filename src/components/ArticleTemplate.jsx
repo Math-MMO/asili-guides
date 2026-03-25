@@ -89,15 +89,30 @@ export default function ArticleTemplate({ frontmatter, children }) {
               </span>
             )}
           </div>
-          <h1 className="font-playfair text-3xl md:text-4xl font-bold leading-tight text-gray-900">
+          <h1 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-gray-900">
             {frontmatter.title}
           </h1>
         </header>
 
+        {/* Image hero */}
+        {frontmatter.image ? (
+          <img
+            src={frontmatter.image}
+            alt={frontmatter.title}
+            className="w-full h-48 md:h-64 object-cover rounded-xl mb-8"
+          />
+        ) : (
+          <div className="w-full h-32 md:h-48 rounded-xl mb-8 bg-gradient-to-br from-amber-400 to-orange-500 flex items-end p-6">
+            <span className="text-white text-sm font-medium opacity-80">
+              {country === "senegal" ? "🇸🇳 Sénégal" : country === "maroc" ? "🇲🇦 Maroc" : countryLabel}
+            </span>
+          </div>
+        )}
+
         {/* Corps article */}
         <div className="
           prose max-w-none
-          prose-headings:font-playfair
+          prose-headings:font-serif
           prose-h1:text-2xl prose-h1:font-bold prose-h1:mt-10 prose-h1:mb-4
           prose-h2:text-xl prose-h2:font-bold prose-h2:mt-8 prose-h2:mb-3 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
           prose-h3:text-lg prose-h3:font-semibold prose-h3:mt-6 prose-h3:mb-2 prose-h3:font-sans

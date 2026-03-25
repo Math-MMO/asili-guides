@@ -36,7 +36,7 @@ export default async function ArticlePage({ params }) {
 
   return (
     <ArticleTemplate frontmatter={frontmatter}>
-      <MDXRemote source={content} />
+      <MDXRemote source={content} components={{ h1: () => null }} />
     </ArticleTemplate>
   );
 }

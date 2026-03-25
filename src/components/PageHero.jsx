@@ -5,7 +5,7 @@ export default function PageHero({ title, subtitle, description }) {
         {subtitle && (
           <p className="text-amber-100 text-sm font-medium mb-2">{subtitle}</p>
         )}
-        <h1 className="font-playfair text-3xl md:text-4xl font-bold leading-tight">
+        <h1 className="font-serif text-3xl md:text-4xl font-bold leading-tight">
           {title}
         </h1>
         {description && (

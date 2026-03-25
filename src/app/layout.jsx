@@ -1,13 +1,13 @@
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, DM_Serif_Display } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const playfair = Playfair_Display({
+const dmSerif = DM_Serif_Display({
   subsets: ["latin"],
-  weight: ["700"],
-  variable: "--font-playfair",
+  weight: ["400"],
+  variable: "--font-dm-serif",
 });
 
 export const metadata = {
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body
-        className={`${inter.variable} ${playfair.variable} font-sans min-h-screen bg-stone-50 text-gray-900 antialiased`}
+        className={`${inter.variable} ${dmSerif.variable} font-sans min-h-screen bg-stone-50 text-gray-900 antialiased`}
       >
         <Navbar />
         <main>{children}</main>
