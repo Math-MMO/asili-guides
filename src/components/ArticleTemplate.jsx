@@ -20,7 +20,26 @@ const badgeColors = {
   congo: "bg-orange-100 text-orange-800",
 };
 
-export default function ArticleTemplate({ frontmatter, children }) {
+const proseClasses = `
+  prose max-w-none
+  prose-headings:font-serif
+  prose-h1:text-2xl prose-h1:font-bold prose-h1:mt-10 prose-h1:mb-4
+  prose-h2:text-xl prose-h2:font-bold prose-h2:mt-8 prose-h2:mb-3 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
+  prose-h3:text-lg prose-h3:font-semibold prose-h3:mt-6 prose-h3:mb-2 prose-h3:font-sans
+  prose-p:text-[17px] prose-p:leading-8 prose-p:mb-5 prose-p:text-gray-700
+  prose-ul:ml-6 prose-ul:mb-5 prose-ul:space-y-2
+  prose-ol:ml-6 prose-ol:mb-5 prose-ol:space-y-2
+  prose-li:text-[17px] prose-li:leading-7 prose-li:text-gray-700
+  prose-strong:font-semibold prose-strong:text-gray-900
+  prose-blockquote:border-l-4 prose-blockquote:border-amber-400 prose-blockquote:pl-5 prose-blockquote:py-3 prose-blockquote:my-6 prose-blockquote:bg-amber-50 prose-blockquote:rounded-r-xl prose-blockquote:italic prose-blockquote:text-gray-600 prose-blockquote:not-italic
+  prose-table:w-full prose-table:border-collapse prose-table:my-6 prose-table:text-sm
+  prose-th:bg-gray-50 prose-th:px-4 prose-th:py-2 prose-th:border prose-th:border-gray-200 prose-th:text-left prose-th:font-semibold
+  prose-td:px-4 prose-td:py-2 prose-td:border prose-td:border-gray-200
+  prose-a:text-orange-600 prose-a:no-underline hover:prose-a:underline
+  prose-hr:border-gray-100
+`;
+
+export default function ArticleTemplate({ frontmatter, children, faq }) {
   const [progress, setProgress] = useState(0);
   const [copied, setCopied] = useState(false);
   const [showForm, setShowForm] = useState(false);
@@ -56,6 +75,25 @@ export default function ArticleTemplate({ frontmatter, children }) {
   const country = frontmatter.country;
   const badgeColor = badgeColors[country] || "bg-gray-100 text-gray-800";
   const countryLabel = countryLabels[country] || country;
+
+  const ctaAmber = (
+    <div className="my-8 p-5 bg-amber-50 border border-amber-100 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div>
+        <p className="font-semibold text-gray-900 text-sm">
+          Vous avez un projet {country === "senegal" ? "au Sénégal" : country === "maroc" ? "au Maroc" : "immobilier"} ?
+        </p>
+        <p className="text-xs text-gray-500 mt-0.5">
+          Décrivez-le en 2 minutes — mise en relation avec une agence vérifiée sous 24h.
+        </p>
+      </div>
+      <button
+        onClick={() => setShowForm(true)}
+        className="shrink-0 bg-amber-500 hover:bg-amber-600 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-colors whitespace-nowrap"
+      >
+        Décrire mon projet →
+      </button>
+    </div>
+  );
 
   return (
     <div className="bg-stone-50 min-h-screen">
@@ -113,65 +151,18 @@ export default function ArticleTemplate({ frontmatter, children }) {
           </div>
         )}
 
-        {/* CTA discret */}
-        <div className="my-8 p-5 bg-amber-50 border border-amber-100 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div>
-            <p className="font-semibold text-gray-900 text-sm">
-              Vous avez un projet {country === "senegal" ? "au Sénégal" : country === "maroc" ? "au Maroc" : "immobilier"} ?
-            </p>
-            <p className="text-xs text-gray-500 mt-0.5">
-              Décrivez-le en 2 minutes — mise en relation avec une agence vérifiée sous 24h.
-            </p>
-          </div>
-          <button
-            onClick={() => setShowForm(true)}
-            className="shrink-0 bg-amber-500 hover:bg-amber-600 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-colors whitespace-nowrap"
-          >
-            Décrire mon projet →
-          </button>
-        </div>
+        {/* CTA discret en haut */}
+        {ctaAmber}
 
-        {/* Corps article */}
-        <div className="
-          prose max-w-none
-          prose-headings:font-serif
-          prose-h1:text-2xl prose-h1:font-bold prose-h1:mt-10 prose-h1:mb-4
-          prose-h2:text-xl prose-h2:font-bold prose-h2:mt-8 prose-h2:mb-3 prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-2
-          prose-h3:text-lg prose-h3:font-semibold prose-h3:mt-6 prose-h3:mb-2 prose-h3:font-sans
-          prose-p:text-[17px] prose-p:leading-8 prose-p:mb-5 prose-p:text-gray-700
-          prose-ul:ml-6 prose-ul:mb-5 prose-ul:space-y-2
-          prose-ol:ml-6 prose-ol:mb-5 prose-ol:space-y-2
-          prose-li:text-[17px] prose-li:leading-7 prose-li:text-gray-700
-          prose-strong:font-semibold prose-strong:text-gray-900
-          prose-blockquote:border-l-4 prose-blockquote:border-amber-400 prose-blockquote:pl-5 prose-blockquote:py-3 prose-blockquote:my-6 prose-blockquote:bg-amber-50 prose-blockquote:rounded-r-xl prose-blockquote:italic prose-blockquote:text-gray-600 prose-blockquote:not-italic
-          prose-table:w-full prose-table:border-collapse prose-table:my-6 prose-table:text-sm
-          prose-th:bg-gray-50 prose-th:px-4 prose-th:py-2 prose-th:border prose-th:border-gray-200 prose-th:text-left prose-th:font-semibold
-          prose-td:px-4 prose-td:py-2 prose-td:border prose-td:border-gray-200
-          prose-a:text-orange-600 prose-a:no-underline hover:prose-a:underline
-          prose-hr:border-gray-100
-        ">
+        {/* Contenu principal (avant Questions fréquentes) */}
+        <div className={proseClasses}>
           {children}
         </div>
 
-        {/* CTA après contenu */}
-        <div className="my-8 p-5 bg-amber-50 border border-amber-100 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div>
-            <p className="font-semibold text-gray-900 text-sm">
-              Vous avez un projet {country === "senegal" ? "au Sénégal" : country === "maroc" ? "au Maroc" : "immobilier"} ?
-            </p>
-            <p className="text-xs text-gray-500 mt-0.5">
-              Décrivez-le en 2 minutes — mise en relation avec une agence vérifiée sous 24h.
-            </p>
-          </div>
-          <button
-            onClick={() => setShowForm(true)}
-            className="shrink-0 bg-amber-500 hover:bg-amber-600 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-colors whitespace-nowrap"
-          >
-            Décrire mon projet →
-          </button>
-        </div>
+        {/* CTA après "Ce que fait ASILI" */}
+        {ctaAmber}
 
-        {/* CTA visible */}
+        {/* CTA dark */}
         <div className="my-10 p-6 bg-gray-900 rounded-2xl text-white text-center">
           <p className="font-bold text-lg mb-1">Prêt à concrétiser votre projet ?</p>
           <p className="text-gray-400 text-sm mb-5">
@@ -189,6 +180,13 @@ export default function ArticleTemplate({ frontmatter, children }) {
             <span>✓ Sans engagement</span>
           </div>
         </div>
+
+        {/* FAQ */}
+        {faq && (
+          <div className={proseClasses}>
+            {faq}
+          </div>
+        )}
 
         {/* Footer article — partage */}
         <div className="mt-12 border-t border-gray-100 pt-8">

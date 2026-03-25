@@ -32,11 +32,24 @@ export async function generateMetadata({ params }) {
   };
 }
 
+const mdxComponents = { h1: () => null };
+
+function splitContent(content) {
+  const marker = "## Questions fréquentes";
+  const idx = content.indexOf(marker);
+  if (idx === -1) return { mainContent: content, faqContent: null };
+  return {
+    mainContent: content.slice(0, idx).trimEnd(),
+    faqContent: content.slice(idx),
+  };
+}
+
 export default async function ArticlePage({ params }) {
   const article = await getArticleBySlug(params.slug);
   if (!article) notFound();
 
   const { frontmatter, content } = article;
+  const { mainContent, faqContent } = splitContent(content);
 
   return (
     <>
@@ -58,8 +71,15 @@ export default async function ArticlePage({ params }) {
           }),
         }}
       />
-      <ArticleTemplate frontmatter={frontmatter}>
-        <MDXRemote source={content} components={{ h1: () => null }} />
+      <ArticleTemplate
+        frontmatter={frontmatter}
+        faq={
+          faqContent ? (
+            <MDXRemote source={faqContent} components={mdxComponents} />
+          ) : null
+        }
+      >
+        <MDXRemote source={mainContent} components={mdxComponents} />
       </ArticleTemplate>
     </>
   );
