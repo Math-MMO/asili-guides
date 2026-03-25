@@ -2,6 +2,13 @@ import { getAllArticles } from "@/lib/articles";
 import PageHero from "@/components/PageHero";
 import ArticlesList from "@/components/ArticlesList";
 
+export const metadata = {
+  title: "Guides Immobilier Afrique | ASILI — Acheter en toute confiance",
+  alternates: {
+    canonical: "https://guide.asili.immo",
+  },
+};
+
 export default async function HomePage() {
   const articles = await getAllArticles();
 

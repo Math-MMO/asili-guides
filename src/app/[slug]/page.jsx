@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
 
   const { frontmatter } = article;
   return {
-    title: frontmatter.title,
+    title: `${frontmatter.title} | ASILI Guides`,
     description: frontmatter.description,
     openGraph: {
       title: frontmatter.title,
@@ -35,8 +35,28 @@ export default async function ArticlePage({ params }) {
   const { frontmatter, content } = article;
 
   return (
-    <ArticleTemplate frontmatter={frontmatter}>
-      <MDXRemote source={content} components={{ h1: () => null }} />
-    </ArticleTemplate>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: frontmatter.title,
+            description: frontmatter.description,
+            url: `https://guide.asili.immo/${frontmatter.slug}`,
+            datePublished: frontmatter.date,
+            publisher: {
+              "@type": "Organization",
+              name: "ASILI",
+              url: "https://asili.immo",
+            },
+          }),
+        }}
+      />
+      <ArticleTemplate frontmatter={frontmatter}>
+        <MDXRemote source={content} components={{ h1: () => null }} />
+      </ArticleTemplate>
+    </>
   );
 }

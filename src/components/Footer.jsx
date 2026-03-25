@@ -84,6 +84,16 @@ export default function Footer() {
                   Support
                 </a>
               </li>
+              <li>
+                <a href="https://www.linkedin.com/company/asili-immo" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/asili.immo" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                  Facebook
+                </a>
+              </li>
             </ul>
           </div>
         </div>

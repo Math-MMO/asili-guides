@@ -1,6 +1,6 @@
 ---
 title: "Arnaques immobilières au Sénégal : comment les reconnaître et les éviter"
-description: "Faux titres fonciers, procurations frauduleuses, promoteurs fantômes : les arnaques les plus fréquentes dans l'immobilier sénégalais et comment s'en protéger."
+description: "Faux titres fonciers, procurations frauduleuses, promoteurs fantômes : découvrez les 5 arnaques les plus fréquentes dans l'immobilier sénégalais et comment vous en protéger efficacement."
 slug: "arnaques-immobilieres-senegal"
 country: "senegal"
 category: "avant-acheter"

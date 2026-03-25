@@ -1,6 +1,6 @@
 ---
 title: "Fiscalité immobilière au Maroc pour les non-résidents : ce qu'il faut savoir"
-description: "Impôts sur les revenus locatifs, taxe sur la plus-value, convention franco-marocaine : tout sur la fiscalité immobilière au Maroc pour un acheteur basé en France."
+description: "Impôts sur les revenus locatifs, taxe sur la plus-value, convention franco-marocaine : guide complet sur la fiscalité immobilière au Maroc pour un acheteur résident en France."
 slug: "fiscalite-immobilier-maroc-non-resident"
 country: "maroc"
 category: "avant-acheter"

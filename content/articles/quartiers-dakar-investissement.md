@@ -1,6 +1,6 @@
 ---
 title: "Les meilleurs quartiers de Dakar pour investir en 2025"
-description: "Almadies, Mermoz, Diamniadio, Yoff : comparatif des quartiers de Dakar par prix au m², rendement locatif et profil d'investisseur."
+description: "Almadies, Mermoz, Diamniadio, Yoff : comparatif complet des quartiers de Dakar par prix au m², rendement locatif et profil d'investisseur pour la diaspora en 2025."
 slug: "quartiers-dakar-investissement"
 country: "senegal"
 category: "avant-acheter"

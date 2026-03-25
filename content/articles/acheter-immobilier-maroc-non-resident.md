@@ -1,6 +1,6 @@
 ---
 title: "Acheter un bien immobilier au Maroc depuis la France : le guide complet"
-description: "Tout ce qu'il faut savoir pour acheter un appartement ou une maison au Maroc depuis la France : démarches, frais, fiscalité, financement."
+description: "Tout ce qu'il faut savoir pour acheter un appartement ou une maison au Maroc depuis la France : démarches, frais d'acquisition, fiscalité et financement pour non-résidents."
 slug: "acheter-immobilier-maroc-non-resident"
 country: "maroc"
 category: "avant-acheter"

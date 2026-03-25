@@ -1,6 +1,6 @@
 ---
 title: "Où investir au Maroc en 2025 : comparatif des meilleures villes"
-description: "Marrakech, Casablanca, Agadir, Tanger : quelle ville choisir pour investir dans l'immobilier au Maroc ? Comparatif par rendement, prix et profil d'investisseur."
+description: "Marrakech, Casablanca, Agadir, Tanger : comparatif des meilleures villes pour investir dans l'immobilier au Maroc en 2025, par rendement, prix et profil d'investisseur."
 slug: "ou-investir-maroc-meilleures-villes"
 country: "maroc"
 category: "avant-acheter"
