@@ -6,97 +6,131 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
-image: "/images/senegal-procuration.png"
+image: /images/senegal-procuration.jpg
 ---
 
 # Procuration immobilière au Sénégal : comment acheter sans se déplacer
 
-Vous vivez en France. Vous voulez acheter au Sénégal. Vous ne pouvez pas — ou ne voulez pas — faire l'aller-retour à chaque étape.
+Un aller-retour Paris-Dakar coûte entre 400 000 et 800 000 FCFA. Un achat immobilier au Sénégal nécessite en moyenne 3 à 5 déplacements — compromis, vérifications, notaire, formalités foncières. La facture totale dépasse facilement les 4 millions FCFA, sans compter les congés pris.
 
-La procuration est la solution. C'est un document légal qui autorise une personne de confiance à agir en votre nom pour finaliser l'achat. Des milliers de membres de la diaspora achètent chaque année sans quitter la France grâce à ce mécanisme.
+La procuration est la solution légale qui permet d'éviter ces déplacements. Elle autorise une personne de confiance à agir en votre nom pour accomplir des actes juridiques précisément définis.
 
-Mais une procuration mal rédigée, ou confiée à la mauvaise personne, peut tourner au désastre. Ce guide vous explique comment faire les choses correctement.
+Selon les consulats sénégalais, la procuration est l'un des actes les plus sollicités par la diaspora. Et l'un des plus mal utilisés — avec des conséquences parfois dramatiques.
 
 ---
 
-## Les deux types de procuration
+## Les deux types de procuration valables au Sénégal
 
 ### La procuration consulaire
 
-Elle est établie auprès du consulat du Sénégal en France. **Elle est gratuite.**
+Établie directement auprès du consulat du Sénégal en France. **Elle est gratuite.**
 
-Vous vous présentez en personne avec votre pièce d'identité et une copie de la pièce d'identité du mandataire (la personne qui agira à votre place). Le consulat rédige et authentifie l'acte.
+Vous vous présentez en personne avec :
+- Votre pièce d'identité originale (passeport ou carte nationale)
+- La copie de la pièce d'identité du mandataire (celui qui agira à votre place)
+- Le projet de procuration détaillant précisément les actes autorisés
+
+Le consul général est habilité par décret à exercer des fonctions notariales. Les actes consulaires ont la même force probante et la même force exécutoire que les actes établis par un notaire au Sénégal.
 
 **Avantage :** gratuite, immédiatement valable au Sénégal sans formalité supplémentaire.
-**Inconvénient :** délais parfois longs selon l'affluence au consulat.
+**Limite :** délais parfois longs selon l'affluence au consulat. Et la rédaction doit être précise — les modèles génériques fournis par certains consulats sont trop larges.
 
 ### La procuration notariée française apostillée
 
-Elle est rédigée par un notaire en France, puis apostillée — c'est-à-dire validée officiellement pour être reconnue à l'international.
+Rédigée par un notaire en France, puis apostillée — c'est-à-dire authentifiée officiellement pour être reconnue à l'international.
 
 **Coût :** 150 à 200 euros.
-**Avantage :** plus sécurisée juridiquement, reconnue sans discussion par tous les notaires sénégalais.
 
-Depuis 2020, votre notaire français peut recevoir la procuration à distance par visioconférence — vous n'avez pas besoin de vous déplacer en cabinet.
+Depuis 2020, une procuration notariée peut être reçue à distance par visioconférence. Votre notaire organise un rendez-vous en ligne — vous n'avez pas besoin de vous déplacer en cabinet. La procuration est ensuite apostillée et envoyée directement au notaire sénégalais.
 
----
-
-## Que doit contenir la procuration ?
-
-Une procuration vague est dangereuse. Elle doit être **spéciale** — c'est-à-dire limitée à un acte précis.
-
-Elle doit mentionner :
-- Le bien visé (adresse, description, numéro de titre foncier)
-- Le prix maximum autorisé
-- Les pouvoirs conférés (signer le compromis, signer l'acte définitif, verser les fonds)
-- La durée de validité
-- L'identité précise du mandataire
-
-N'accordez jamais une **procuration générale** pour un achat immobilier. Ce type de procuration donne des pouvoirs trop larges et expose à des détournements.
+**Avantage :** reconnue sans discussion par tous les notaires sénégalais, plus robuste juridiquement en cas de litige ultérieur.
+**Coût :** 150 à 200 euros — un investissement raisonnable au regard des sommes en jeu.
 
 ---
 
-## À qui confier la procuration ?
+## Ce que doit contenir une procuration valide
 
-C'est la décision la plus importante.
+C'est ici que la plupart des erreurs sont commises. Une procuration vague est une invitation à l'abus.
 
-**Les bonnes options :**
-- Un notaire ou un avocat sénégalais enregistré
-- Un membre de la famille proche ayant déjà une expérience des transactions immobilières
-- Une agence immobilière référencée avec mandat écrit
+**Une procuration immobilière sécurisée doit mentionner :**
+
+- **L'identité précise du mandant** (vous) et du mandataire (votre représentant) — nom, prénom, date de naissance, numéro de pièce d'identité
+- **Le bien visé avec précision** — adresse, superficie, numéro de titre foncier si connu
+- **Le prix maximum autorisé** — votre mandataire ne peut pas engager plus que ce montant
+- **Les actes précisément autorisés** : signer le compromis, signer l'acte définitif, émettre le chèque de banque, déposer le dossier à la Conservation Foncière
+- **La durée de validité** — généralement 6 à 12 mois
+- **La clause de compte rendu** — votre mandataire doit vous informer par écrit de chaque acte accompli
+
+**Ce que la procuration ne doit jamais permettre :**
+- S'emparer du bien en son nom propre — l'acte de vente doit expressément mentionner que vous êtes l'acquéreur
+- Modifier le prix convenu sans votre accord écrit
+- Reverser les fonds à un tiers non mentionné
+
+Le Code pénal sénégalais prévoit 2 à 5 ans de prison pour abus de confiance (article 379). Mais une procédure pénale prend des années — mieux vaut prévenir.
+
+---
+
+## À qui confier la procuration
+
+C'est la décision la plus importante de toute la transaction. Voici les options par ordre de sécurité :
+
+**Option 1 — Un notaire sénégalais (idéale)**
+Le notaire est un officier public. Il est responsable de ses actes sur son patrimoine personnel. En cas de faute, il peut être poursuivi et condamné. C'est la garantie la plus solide.
+
+**Option 2 — Un avocat inscrit au barreau de Dakar**
+Même niveau de responsabilité professionnelle que le notaire. À privilégier si vous avez un litige potentiel à gérer en parallèle.
+
+**Option 3 — Un membre de la famille avec expérience juridique**
+Acceptable si la personne a déjà réalisé des transactions immobilières au Sénégal et comprend les procédures. Mais l'absence de responsabilité professionnelle est un risque réel.
 
 **À éviter absolument :**
-- Une personne rencontrée uniquement en ligne
 - Un intermédiaire informel sans statut juridique
-- Toute personne qui vous demande un virement avant d'avoir signé quoi que ce soit
+- Une personne rencontrée en ligne qui "connaît bien le marché"
+- Un agent immobilier non enregistré
 
 ---
 
-## Les risques et comment les éviter
+## Comment se passe concrètement le paiement
 
-En 2025, une affaire touchant 97 victimes de la diaspora a été révélée en France, pour un préjudice de plus d'un million d'euros. Des procurations frauduleuses avaient été utilisées pour détourner des fonds.
+C'est l'étape la plus risquée. Voici la méthode la plus sécurisée :
 
-**Les trois règles pour se protéger :**
+1. Ouvrez un compte bancaire sénégalais à votre nom depuis la France — possible à distance auprès de BHS, SGBS, BOA ou CBAO
+2. Transférez vos fonds depuis votre banque française vers ce compte
+3. Autorisez votre mandataire à émettre un chèque de banque depuis votre compte au nom du vendeur
+4. Le notaire conserve une copie du chèque encaissé comme preuve dans le dossier
 
-1. **Limitez les pouvoirs** — procuration spéciale uniquement, pas générale
-2. **Vérifiez le mandataire** — passez par un professionnel du droit, pas un proche de confiance sans expérience juridique
-3. **Suivez chaque étape** — demandez des comptes-rendus écrits à chaque étape, avec les documents signés
+**Pourquoi le chèque de banque ?** Il est garanti par la banque. En cas de litige, vous pouvez prouver le paiement devant un tribunal. Un virement direct sans traçabilité notariale est beaucoup plus difficile à défendre.
+
+N'envoyez jamais d'argent par Western Union, Wave ou Orange Money pour un acompte immobilier. Ces transferts sont irréversibles et ne constituent pas une preuve recevable devant un notaire.
 
 ---
 
-## La procuration est révocable
+## La procuration est révocable à tout moment
 
-C'est un point important que beaucoup ignorent. Vous pouvez révoquer une procuration à tout moment, par voie d'huissier. Si vous avez un doute sur votre mandataire en cours de transaction, vous pouvez stopper le processus.
+C'est un point que beaucoup ignorent. Si vous changez d'avis, si vous perdez confiance dans votre mandataire, ou si des éléments nouveaux apparaissent, vous pouvez révoquer la procuration à tout moment par voie d'huissier.
+
+La révocation est immédiatement opposable au mandataire dès signification. Tout acte accompli après la révocation est nul.
+
+---
+
+## Le problème de la distance
+
+Même avec une procuration parfaitement rédigée et un mandataire de confiance, gérer une transaction immobilière à distance depuis la France reste difficile. Vous ne voyez pas le terrain. Vous ne connaissez pas le quartier. Vous ne pouvez pas vérifier en personne si les documents correspondent à la réalité.
+
+C'est là qu'ASILI change la donne. Notre équipe sur place visite le bien pour vous, vérifie les documents en personne, vous envoie une vidéo détaillée du terrain et du quartier, et vous accompagne jusqu'à la signature. Vous décidez en connaissance de cause — pas sur la base de photos envoyées par le vendeur.
 
 ---
 
 ## Questions fréquentes
 
-**Peut-on signer une procuration depuis l'étranger sans se déplacer ?**
-Oui. Depuis 2020, un notaire français peut recevoir une procuration par visioconférence. Vous restez chez vous.
+**Peut-on faire la procuration depuis n'importe quel consulat sénégalais ?**
+Oui. Tous les consulats sénégalais en France ont la capacité d'établir des procurations. Paris, Lyon, Marseille, Bordeaux, Strasbourg — vérifiez les horaires et délais de votre consulat le plus proche.
 
-**La procuration consulaire est-elle aussi valable que la procuration notariée ?**
-Oui, juridiquement. Les actes consulaires ont la même force que les actes notariés sénégalais. Mais certains notaires ou vendeurs préfèrent la procuration notariée apostillée.
+**La procuration consulaire est-elle valable pour une signature chez le notaire ?**
+Oui, à condition qu'elle mentionne explicitement cet acte. Le notaire sénégalais vérifiera la procuration avant de procéder à la signature.
 
-**Combien de temps est valable une procuration ?**
-La durée est fixée dans l'acte. Généralement 6 à 12 mois pour un achat immobilier. Elle prend fin automatiquement à l'accomplissement de l'acte ou à l'expiration du délai.
+**Combien de temps dure une procuration ?**
+La durée est fixée dans l'acte — généralement 6 à 12 mois pour un achat immobilier. Elle prend fin automatiquement à l'expiration du délai ou à l'accomplissement de l'acte pour lequel elle a été établie.
+
+**Mon mandataire peut-il garder le bien à son nom ?**
+Non. C'est strictement interdit. L'acte de vente doit expressément mentionner que vous êtes l'acquéreur et que le mandataire agit uniquement comme représentant. Le titre foncier sera établi à votre nom.
