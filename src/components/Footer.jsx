@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Proprietaires</h4>
+            <h4 className="font-semibold mb-4">Propriétaires</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <a href={`${ASILI_URL}/CreateProperty`} target="_blank" rel="noopener noreferrer" className="hover:text-white">
@@ -69,7 +69,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <Link href="/" className="hover:text-white">
-                  Guides & reperes
+                  Guides & repères
                 </Link>
               </li>
             </ul>
@@ -99,7 +99,7 @@ export default function Footer() {
             </a>
             <span className="text-gray-600">&bull;</span>
             <a href={`${ASILI_URL}/PrivacyPolicy`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">
-              Politique de confidentialite
+              Politique de confidentialité
             </a>
             <span className="text-gray-600">&bull;</span>
             <a href={`${ASILI_URL}/FAQ`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">
@@ -108,7 +108,7 @@ export default function Footer() {
           </div>
 
           <p className="text-center text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Asili. Tous droits reserves.
+            &copy; {new Date().getFullYear()} Asili. Tous droits réservés.
           </p>
         </div>
       </div>

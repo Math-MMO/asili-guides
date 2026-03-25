@@ -1,7 +1,7 @@
 import { getAllArticles } from "@/lib/articles";
 
-export default function sitemap() {
-  const articles = getAllArticles();
+export default async function sitemap() {
+  const articles = await getAllArticles();
 
   const articleUrls = articles.map((article) => ({
     url: `https://guide.asili.immo/${article.slug}`,

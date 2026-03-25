@@ -14,7 +14,7 @@ export default function Navbar() {
     { label: "Louer", href: `${ASILI_URL}/Search?listing_type=rent` },
     { label: "Rechercher", href: `${ASILI_URL}/Search` },
     { label: "Publier une annonce", href: `${ASILI_URL}/CreateProperty` },
-    { label: "Guides & reperes", href: "/" },
+    { label: "Guides & repères", href: "/" },
   ];
 
   return (

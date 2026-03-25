@@ -4,12 +4,12 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
-  const slugs = getAllSlugs();
+  const slugs = await getAllSlugs();
   return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
-  const article = getArticleBySlug(params.slug);
+  const article = await getArticleBySlug(params.slug);
   if (!article) return {};
 
   const { frontmatter } = article;
@@ -28,8 +28,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function ArticlePage({ params }) {
-  const article = getArticleBySlug(params.slug);
+export default async function ArticlePage({ params }) {
+  const article = await getArticleBySlug(params.slug);
   if (!article) notFound();
 
   const { frontmatter, content } = article;
