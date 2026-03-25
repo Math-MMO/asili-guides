@@ -3,7 +3,9 @@ import PageHero from "@/components/PageHero";
 import ArticlesList from "@/components/ArticlesList";
 
 export const metadata = {
-  title: "Guides Immobilier Afrique | ASILI — Acheter en toute confiance",
+  title: "Guides Immobilier Afrique | ASILI",
+  description:
+    "Guides pratiques pour acheter au Sénégal ou au Maroc depuis la France. Titre foncier, notaire, procuration, fiscalité : tout ce qu'il faut savoir pour la diaspora africaine.",
   alternates: {
     canonical: "https://guide.asili.immo",
   },
