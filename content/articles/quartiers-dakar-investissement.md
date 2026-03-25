@@ -6,6 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
+image: "/images/dakar-quartiers.png"
 ---
 
 # Les meilleurs quartiers de Dakar pour investir en 2025

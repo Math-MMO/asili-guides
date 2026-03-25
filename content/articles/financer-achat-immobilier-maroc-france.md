@@ -6,6 +6,7 @@ country: "maroc"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
+image: "/images/maroc-financement.png"
 ---
 
 # Comment financer un achat immobilier au Maroc depuis la France

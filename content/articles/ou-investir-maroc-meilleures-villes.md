@@ -6,6 +6,7 @@ country: "maroc"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
+image: "/images/maroc-villes.png"
 ---
 
 # Où investir au Maroc en 2025 : comparatif des meilleures villes

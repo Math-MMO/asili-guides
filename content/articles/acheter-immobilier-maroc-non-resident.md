@@ -6,6 +6,7 @@ country: "maroc"
 category: "avant-acheter"
 published: true
 date: "2025-03-25"
+image: "/images/maroc-guide.png"
 ---
 
 # Acheter un bien immobilier au Maroc depuis la France
