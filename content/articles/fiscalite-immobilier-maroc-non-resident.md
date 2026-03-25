@@ -23,13 +23,18 @@ Avant même de toucher un loyer ou de revendre, l'achat lui-même génère des f
 
 **Ce que vous payez au moment de signer :**
 
-| Poste | Taux | Exemple sur 100 000 € |
-|---|---|---|
-| Droits d'enregistrement | 4 % du prix | 4 000 € |
-| Honoraires notaire | ~1 % + TVA 20 % | ~1 200 € |
-| Conservation foncière | ~1,5 % | 1 500 € |
-| Frais d'agence | 2,5 à 5 % | 2 500 à 5 000 € |
-| **Total frais d'acquisition** | **~6 à 7 %** | **~9 200 à 11 700 €** |
+<table>
+<thead>
+<tr><th>Poste</th><th>Taux</th><th>Exemple sur 100 000 €</th></tr>
+</thead>
+<tbody>
+<tr><td>Droits d'enregistrement</td><td>4 % du prix</td><td>4 000 €</td></tr>
+<tr><td>Honoraires notaire</td><td>~1 % + TVA 20 %</td><td>~1 200 €</td></tr>
+<tr><td>Conservation foncière</td><td>~1,5 %</td><td>1 500 €</td></tr>
+<tr><td>Frais d'agence</td><td>2,5 à 5 %</td><td>2 500 à 5 000 €</td></tr>
+<tr><td><strong>Total frais d'acquisition</strong></td><td><strong>~6 à 7 %</strong></td><td><strong>~9 200 à 11 700 €</strong></td></tr>
+</tbody>
+</table>
 
 Ces frais sont non récupérables et doivent être intégrés dans votre calcul de rentabilité dès le départ.
 

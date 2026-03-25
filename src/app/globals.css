@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tables dans les articles */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.prose thead tr {
+  background-color: #f9fafb;
+}
+
+.prose th {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+}
+
+.prose td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  color: #4b5563;
+}
+
+.prose tbody tr:hover {
+  background-color: #fefce8;
+}
+
+@media (max-width: 640px) {
+  .prose table {
+    font-size: 0.75rem;
+  }
+  .prose th,
+  .prose td {
+    padding: 0.5rem 0.625rem;
+  }
+}

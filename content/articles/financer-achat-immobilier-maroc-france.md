@@ -46,13 +46,18 @@ Les banques marocaines financent les non-résidents, y compris les étrangers. C
 
 **Les conditions générales pour un non-résident en 2025 :**
 
-| Critère | Conditions |
-|---|---|
-| Apport personnel | 30 à 50 % du prix d'achat |
-| Revenus | 3 années de justificatifs fiscaux |
-| Taux d'endettement | Maximum 40 % des revenus nets |
-| Taux d'intérêt | 4 à 6,5 % selon profil et banque |
-| Durée maximale | 25 ans (résidents), 20 ans (non-résidents) |
+<table>
+<thead>
+<tr><th>Critère</th><th>Conditions</th></tr>
+</thead>
+<tbody>
+<tr><td>Apport personnel</td><td>30 à 50 % du prix d'achat</td></tr>
+<tr><td>Revenus</td><td>3 années de justificatifs fiscaux</td></tr>
+<tr><td>Taux d'endettement</td><td>Maximum 40 % des revenus nets</td></tr>
+<tr><td>Taux d'intérêt</td><td>4 à 6,5 % selon profil et banque</td></tr>
+<tr><td>Durée maximale</td><td>25 ans (résidents), 20 ans (non-résidents)</td></tr>
+</tbody>
+</table>
 
 **Les banques les plus actives sur ce segment :**
 

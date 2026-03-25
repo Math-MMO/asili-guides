@@ -109,13 +109,18 @@ Des villes comme Meknès, Fès, Taroudant ou Tiznit permettent d'entrer sur le m
 
 ## Tableau de synthèse
 
-| Ville | Rendement brut | Liquidité | Prix d'entrée | Profil recommandé |
-|---|---|---|---|---|
-| Marrakech | 8-12 % | Bonne | Élevé | Touristique, riad, plus-value |
-| Casablanca | 5-7 % | Très bonne | Moyen | Stable, LT, expatriés |
-| Agadir | Fort saisonnier | Moyenne | Accessible | Résidence secondaire, retraite |
-| Tanger | 5-7 % | Moyenne | Abordable | Développement, cadres |
-| Villes secondaires | Variable | Faible | Très accessible | Budget serré, connaissance terrain |
+<table>
+<thead>
+<tr><th>Ville</th><th>Rendement brut</th><th>Liquidité</th><th>Prix d'entrée</th><th>Profil recommandé</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Marrakech</strong></td><td>8-12 %</td><td>Bonne</td><td>Élevé</td><td>Touristique, riad, plus-value</td></tr>
+<tr><td><strong>Casablanca</strong></td><td>5-7 %</td><td>Très bonne</td><td>Moyen</td><td>Stable, LT, expatriés</td></tr>
+<tr><td><strong>Agadir</strong></td><td>Fort saisonnier</td><td>Moyenne</td><td>Accessible</td><td>Résidence secondaire, retraite</td></tr>
+<tr><td><strong>Tanger</strong></td><td>5-7 %</td><td>Moyenne</td><td>Abordable</td><td>Développement, cadres</td></tr>
+<tr><td><strong>Villes secondaires</strong></td><td>Variable</td><td>Faible</td><td>Très accessible</td><td>Budget serré, connaissance terrain</td></tr>
+</tbody>
+</table>
 
 ---
 

@@ -101,13 +101,18 @@ Yoff est un ancien village de pêcheurs intégré dans le tissu dakarois, avec a
 
 ## Tableau de synthèse
 
-| Quartier | Prix m² (FCFA) | Rendement brut | Liquidité | Profil recommandé |
-|---|---|---|---|---|
-| Almadies | 4 à 6,5 M | 6-7 % | Élevée | Patrimoine, prestige |
-| Mermoz / Point E | 1,5 à 2,5 M | 7-9 % | Bonne | Premier achat diaspora |
-| Plateau | 1,5 à 8 M | 6-12 % | Bonne | Commercial, bureaux |
-| Yoff | 400K à 700K | Variable | Moyenne | Budget serré, LT |
-| Diamniadio | 300K à 600K | 10-12 % | Faible actuellement | Vision LT, rendement |
+<table>
+<thead>
+<tr><th>Quartier</th><th>Prix m² (FCFA)</th><th>Rendement brut</th><th>Liquidité</th><th>Profil recommandé</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Almadies</strong></td><td>4 à 6,5 M</td><td>6-7 %</td><td>Élevée</td><td>Patrimoine, prestige</td></tr>
+<tr><td><strong>Mermoz / Point E</strong></td><td>1,5 à 2,5 M</td><td>7-9 %</td><td>Bonne</td><td>Premier achat diaspora</td></tr>
+<tr><td><strong>Plateau</strong></td><td>1,5 à 8 M</td><td>6-12 %</td><td>Bonne</td><td>Commercial, bureaux</td></tr>
+<tr><td><strong>Yoff</strong></td><td>400K à 700K</td><td>Variable</td><td>Moyenne</td><td>Budget serré, LT</td></tr>
+<tr><td><strong>Diamniadio</strong></td><td>300K à 600K</td><td>10-12 %</td><td>Faible actuellement</td><td>Vision LT, rendement</td></tr>
+</tbody>
+</table>
 
 ---
 
