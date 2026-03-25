@@ -13,6 +13,10 @@ export const metadata = {
   description:
     "Comprendre le marché immobilier en Afrique pour acheter en toute confiance.",
   metadataBase: new URL("https://guide.asili.immo"),
+  icons: {
+    icon: "/logo-asili.png",
+    apple: "/logo-asili.png",
+  },
 };
 
 export default function RootLayout({ children }) {

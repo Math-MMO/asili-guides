@@ -18,11 +18,11 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="bg-gray-900 text-white">
+    <header className="bg-white border-b border-gray-200">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
         <Link href="/" className="flex items-center">
           <img
-            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6926d34fc8112c409d32c74d/b60f090ea_LOGO-ASILI.png"
+            src="/logo-asili.png"
             alt="Asili"
             className="h-10 w-auto"
           />
@@ -35,7 +35,7 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-sm text-gray-300 hover:text-white transition-colors"
+                className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
               >
                 {link.label}
               </Link>
@@ -45,25 +45,17 @@ export default function Navbar() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-gray-300 hover:text-white transition-colors"
+                className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
               >
                 {link.label}
               </a>
             )
           )}
-          <a
-            href={`${ASILI_URL}/Login`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-md bg-amber-500 px-4 py-2 text-sm font-medium text-gray-900 hover:bg-amber-400 transition-colors"
-          >
-            Se connecter
-          </a>
         </nav>
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-gray-300 hover:text-white"
+          className="md:hidden text-gray-600 hover:text-gray-900"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Menu"
         >
@@ -73,14 +65,14 @@ export default function Navbar() {
 
       {/* Mobile nav */}
       {mobileOpen && (
-        <nav className="md:hidden border-t border-gray-800 px-4 pb-4">
+        <nav className="md:hidden border-t border-gray-200 px-4 pb-4">
           {navLinks.map((link) =>
             link.href.startsWith("/") ? (
               <Link
                 key={link.label}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="block py-2 text-sm text-gray-300 hover:text-white transition-colors"
+                className="block py-2 text-sm text-gray-600 hover:text-gray-900 transition-colors"
               >
                 {link.label}
               </Link>
@@ -90,20 +82,12 @@ export default function Navbar() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block py-2 text-sm text-gray-300 hover:text-white transition-colors"
+                className="block py-2 text-sm text-gray-600 hover:text-gray-900 transition-colors"
               >
                 {link.label}
               </a>
             )
           )}
-          <a
-            href={`${ASILI_URL}/Login`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 block rounded-md bg-amber-500 px-4 py-2 text-center text-sm font-medium text-gray-900 hover:bg-amber-400 transition-colors"
-          >
-            Se connecter
-          </a>
         </nav>
       )}
     </header>
