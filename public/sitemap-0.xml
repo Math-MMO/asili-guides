@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://guide.asili.immo/robots.txt</loc><lastmod>2026-03-25T11:01:47.174Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://guide.asili.immo/sitemap.xml</loc><lastmod>2026-03-25T11:01:47.175Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://guide.asili.immo</loc><lastmod>2026-03-25T11:01:47.175Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://guide.asili.immo/acheter-immobilier-maroc-non-resident</loc><lastmod>2026-03-25T11:01:47.175Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://guide.asili.immo/acheter-immobilier-senegal-diaspora</loc><lastmod>2026-03-25T11:01:47.175Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://guide.asili.immo/arnaques-immobilieres-senegal</loc><lastmod>2026-03-25T11:01:47.175Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://guide.asili.immo/quartiers-dakar-investissement</loc><lastmod>2026-03-25T11:01:47.175Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/icon.png</loc><lastmod>2026-03-25T11:52:28.381Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/sitemap.xml</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/robots.txt</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/acheter-immobilier-maroc-non-resident</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/acheter-immobilier-senegal-diaspora</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/arnaques-immobilieres-senegal</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/financer-achat-immobilier-maroc-france</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/fiscalite-immobilier-maroc-non-resident</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/ou-investir-maroc-meilleures-villes</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/procuration-immobiliere-senegal</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://guide.asili.immo/quartiers-dakar-investissement</loc><lastmod>2026-03-25T11:52:28.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
