@@ -6,7 +6,7 @@ country: "maroc"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/maroc-guide.jpg
+image: /images/riad-maroc.jpg
 ---
 
 # Acheter un riad au Maroc depuis la France : guide complet

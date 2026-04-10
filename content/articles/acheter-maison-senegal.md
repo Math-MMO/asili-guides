@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/senegal-guide.jpg
+image: /images/maison-senegal.jpg
 ---
 
 # Acheter une maison au Sénégal depuis la France

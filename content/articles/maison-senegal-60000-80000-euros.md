@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/senegal-guide.jpg
+image: /images/maison-senegal-budget.jpg
 ---
 
 # Maison au Sénégal entre 60 000 et 80 000 euros : ce que vous pouvez acheter

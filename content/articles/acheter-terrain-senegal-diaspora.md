@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/senegal-guide.jpg
+image: /images/terrain-senegal.jpg
 ---
 
 # Acheter un terrain au Sénégal depuis la France : guide complet

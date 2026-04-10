@@ -6,7 +6,7 @@ country: "maroc"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/maroc-guide.jpg
+image: /images/appartement-marrakech.jpg
 ---
 
 # Appartement à Marrakech : prix et investissement en 2025

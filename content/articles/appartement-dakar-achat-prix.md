@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/dakar-quartiers.jpg
+image: /images/appartement-dakar.jpg
 ---
 
 # Appartement à Dakar : prix, quartiers et comment acheter depuis la France

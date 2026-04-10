@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/senegal-guide.jpg
+image: /images/saly-ngaparou.jpg
 ---
 
 # Investir à Saly et Ngaparou : immobilier sur la Petite Côte sénégalaise

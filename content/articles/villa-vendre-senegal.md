@@ -6,7 +6,7 @@ country: "senegal"
 category: "avant-acheter"
 published: true
 date: "2025-04-10"
-image: /images/dakar-quartiers.jpg
+image: /images/villa-senegal.jpg
 ---
 
 # Villa à vendre au Sénégal : prix, zones et comment acheter depuis la France
