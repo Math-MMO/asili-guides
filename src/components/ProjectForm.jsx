@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { X, ArrowRight, CheckCircle, Loader2 } from "lucide-react";
+import { getAttribution, flattenAttribution } from "@/lib/attribution";
 
 export default function ProjectForm({ isOpen, onClose, defaultCountry = "" }) {
   const [form, setForm] = useState({
@@ -25,10 +26,11 @@ export default function ProjectForm({ isOpen, onClose, defaultCountry = "" }) {
     setError("");
 
     try {
+      const attribution = flattenAttribution(getAttribution());
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, attribution }),
       });
       const data = await res.json();
       if (data.success) {

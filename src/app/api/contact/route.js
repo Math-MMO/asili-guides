@@ -44,6 +44,14 @@ export async function POST(request) {
     plus_2_ans: "Plus de 2 ans",
   };
 
+  const attribution = body.attribution || {};
+  const attributionLine =
+    attribution.last_source || attribution.first_source
+      ? `last: ${attribution.last_source || '—'} / ${attribution.last_medium || '—'}` +
+        (attribution.last_campaign ? ` / ${attribution.last_campaign}` : '') +
+        ` | first: ${attribution.first_source || '—'} / ${attribution.first_medium || '—'}`
+      : null;
+
   const htmlContent = `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
       <div style="background: #F59E0B; padding: 24px; border-radius: 8px 8px 0 0;">
@@ -87,9 +95,18 @@ export async function POST(request) {
         </table>
         <div style="margin-top: 24px; padding: 16px; background: #fff3cd; border-radius: 8px; border-left: 4px solid #F59E0B;">
           <p style="margin: 0; font-size: 13px; color: #92400e;">
-            📱 Contacter sur WhatsApp : <strong>${phone}</strong>
+            WhatsApp : <strong>${phone}</strong>
           </p>
         </div>
+        ${
+          attributionLine
+            ? `<div style="margin-top: 12px; padding: 12px 16px; background: #f3f4f6; border-radius: 8px;">
+          <p style="margin: 0; font-size: 12px; color: #6b7280;">
+            Attribution : ${attributionLine}
+          </p>
+        </div>`
+            : ''
+        }
         <p style="margin-top: 16px; font-size: 12px; color: #9ca3af; text-align: center;">
           Demande reçue depuis guide.asili.immo
         </p>
@@ -119,6 +136,45 @@ export async function POST(request) {
       return NextResponse.json(
         { error: "Erreur envoi email" },
         { status: 500 }
+      );
+    }
+
+    // Fire-and-forget: persist lead in base44 (non-blocking)
+    const base44Token = process.env.BASE44_TRACK_TOKEN;
+    if (base44Token) {
+      const leadPayload = {
+        firstName,
+        phone,
+        country,
+        projectType,
+        budget,
+        timeframe,
+        message,
+        ...attribution,
+      };
+      fetch("https://asili.immo/functions/createGuideProjectLead", {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${base44Token}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(leadPayload),
+      })
+        .then(async (r) => {
+          if (!r.ok) {
+            const errBody = await r.text();
+            console.error(
+              `createGuideProjectLead failed (${r.status}):`,
+              errBody,
+            );
+          }
+        })
+        .catch((err) => {
+          console.error("createGuideProjectLead network error:", err);
+        });
+    } else {
+      console.error(
+        "BASE44_TRACK_TOKEN absent — lead not persisted in base44",
       );
     }
 
