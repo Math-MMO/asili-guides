@@ -2,6 +2,7 @@ import { Inter, DM_Serif_Display } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AttributionTracker from "@/components/AttributionTracker";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.variable} ${dmSerif.variable} font-sans min-h-screen bg-stone-50 text-gray-900 antialiased`}
       >
+        <AttributionTracker />
         <Navbar />
         <main>{children}</main>
         <Footer />
