@@ -139,7 +139,8 @@ export async function POST(request) {
       );
     }
 
-    // Fire-and-forget: persist lead in base44 (non-blocking)
+    // Persist lead in base44 (await pour eviter que Vercel tue la lambda
+    // avant que le fetch n'atteigne base44).
     const base44Token = process.env.BASE44_TRACK_TOKEN;
     if (base44Token) {
       const leadPayload = {
@@ -152,26 +153,28 @@ export async function POST(request) {
         message,
         ...attribution,
       };
-      fetch("https://asili.immo/functions/createGuideProjectLead", {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${base44Token}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(leadPayload),
-      })
-        .then(async (r) => {
-          if (!r.ok) {
-            const errBody = await r.text();
-            console.error(
-              `createGuideProjectLead failed (${r.status}):`,
-              errBody,
-            );
-          }
-        })
-        .catch((err) => {
-          console.error("createGuideProjectLead network error:", err);
-        });
+      try {
+        const r = await fetch(
+          "https://asili.immo/functions/createGuideProjectLead",
+          {
+            method: "POST",
+            headers: {
+              "Authorization": `Bearer ${base44Token}`,
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(leadPayload),
+          },
+        );
+        if (!r.ok) {
+          const errBody = await r.text();
+          console.error(
+            `createGuideProjectLead failed (${r.status}):`,
+            errBody,
+          );
+        }
+      } catch (err) {
+        console.error("createGuideProjectLead network error:", err);
+      }
     } else {
       console.error(
         "BASE44_TRACK_TOKEN absent — lead not persisted in base44",
