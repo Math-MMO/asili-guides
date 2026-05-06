@@ -102,6 +102,10 @@ export default function Footer() {
               Politique de confidentialité
             </a>
             <span className="text-gray-600">&bull;</span>
+            <Link href="/politique-cookies" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">
+              Politique de cookies
+            </Link>
+            <span className="text-gray-600">&bull;</span>
             <a href={`${ASILI_URL}/FAQ`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">
               FAQ
             </a>
